@@ -1,0 +1,63 @@
+.card-client-sty1,
+.card-client-sty2,
+.card-client-sty3 {
+    width: 360px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.card-client-sty1 .desc,
+.card-client-sty2 .desc,
+.card-client-sty3 .desc {
+    font-size: 16px;
+}
+
+.card-client-sty1 .job,
+.card-client-sty2 .job,
+.card-client-sty3 .job {
+    font-size: 12px;
+}
+
+.card-client-sty1,
+.card-client-sty3 {
+    background-color: #fff;
+}
+
+.card-client-sty1 .desc,
+.card-client-sty3 .desc,
+.card-client-sty1 .job,
+.card-client-sty3 .job,
+.card-client-sty1 .fa-quote-right,
+.card-client-sty3 .fa-quote-right {
+    color: rgba(128, 128, 128, 0.827);
+}
+
+.card-client-sty2 {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.stars-icons {
+    margin-bottom: 15px;
+}
+
+.stars-icons .fa-solid {
+    color: gold;
+}
+
+.stars-icons .fa-regular {
+    color: gold;
+
+}
+
+.fa-quote-right {
+    font-size: 40px;
+}
+
+.card-client-sty1 .image,
+.card-client-sty2 .image,
+.card-client-sty3 .image {
+    object-fit: contain;
+    margin-right: 10px;
+}

@@ -1,0 +1,85 @@
+.card-pric,
+.card-pric2 {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.173);
+}
+
+.card-pric .title,
+.card-pric2 .title {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-pric .title {
+    background-color: var(--primary-color);
+
+}
+
+.card-pric2 .title {
+    background-color: var(--secondry-color);
+}
+
+.card-pric .title p,
+.card-pric2 .title p {
+    font-size: 10px;
+}
+
+.card-pric .title p strong,
+.card-pric2 .title p strong {
+    font-size: 27px;
+}
+
+.card-pric .content,
+.card-pric2 .content {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card-pric .content .row,
+.card-pric2 .content .row {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-pric .content .row p,
+.card-pric2 .content .row p {
+    font-size: 12px;
+}
+
+.card-pric .content .row .col1,
+.card-pric2 .content .row .col1 {
+    display: inline;
+    width: max-content;
+}
+
+.card-pric .content .row .col1 .fa-check,
+.card-pric2 .content .row .col1 .fa-check {
+    color: var(--primary-color);
+}
+
+.card-pric .content .row .col1 .fa-xmark,
+.card-pric2 .content .row .col1 .fa-xmark {
+    color: red;
+}
+
+.card-pric .content .row .icon,
+.card-pric2 .content .row .icon {
+    display: inline;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.655);
+
+}

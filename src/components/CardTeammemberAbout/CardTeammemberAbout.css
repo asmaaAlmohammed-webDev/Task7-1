@@ -1,0 +1,76 @@
+.bg-card1,
+.bg-card2,
+.bg-card3,
+.bg-card4 {
+    width: 250px;
+    height: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bg-card1 {
+    background-image: url(./../../../public/images/images/04.webp);
+}
+
+.bg-card2 {
+    background-image: url(./../../../public/images/images/05.webp);
+}
+
+.bg-card3 {
+    background-image: url(./../../../public/images/images/06.webp);
+}
+
+.bg-card4 {
+    background-image: url(./../../../public/images/images/07.webp);
+}
+
+.content-card-member {
+    background-color: var(--secondry-color);
+    clip-path: polygon(100% 12%, 100% 50%, 0 52%, 0 27%);
+    padding: 80px;
+    position: absolute;
+    bottom: -170px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 10px;
+    /* position: relative; */
+
+}
+
+.content-card-member .name {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.content-card-member .job {
+    font-size: 10px;
+    margin-bottom: 90px;
+}
+
+.icon-card-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 65px;
+    left: 210px;
+    z-index: 50;
+    cursor: pointer;
+}
+
+/* .icon-card-member i {
+    color: #fff;
+} */

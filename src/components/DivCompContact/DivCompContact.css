@@ -1,0 +1,65 @@
+.sty-card1,
+.sty-card2,
+.sty-card3 {
+    background-color: var(--primary-color);
+    padding: 15px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.sty-card1 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.sty-card2 .information {
+    width: 65%;
+    padding: 10px 15px;
+    border-top: 1px solid #ffffff67;
+    border-bottom: 1px solid #ffffff67;
+}
+
+.sty-card1 .information p:nth-child(1),
+.sty-card2 .information p:nth-child(1),
+.sty-card3 .information p:nth-child(1) {
+    font-size: 13px;
+    color: #fff;
+}
+
+.sty-card1 .information p:nth-child(2),
+.sty-card2 .information p:nth-child(2),
+.sty-card3 .information p:nth-child(2) {
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sty-card1 .icon,
+.sty-card2 .icon,
+.sty-card3 .icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 2px dashed #fff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+@media(max-width:450px) {
+
+    .sty-card1 .icon,
+    .sty-card2 .icon,
+    .sty-card3 .icon {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+}

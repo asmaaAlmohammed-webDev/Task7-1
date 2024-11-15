@@ -1,0 +1,12 @@
+.icon-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-img-div p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}

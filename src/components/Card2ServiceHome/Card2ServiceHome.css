@@ -1,0 +1,36 @@
+.card2-sty1,
+.card2-sty2,
+.card2-sty3,
+.card2-sty4 {
+    width: 290px;
+}
+
+.card2-sty1 .num,
+.card2-sty2 .num,
+.card2-sty3 .num,
+.card2-sty4 .num {
+    color: transparent;
+    -webkit-text-stroke: thin #c3d5f636;
+    font-size: 60px;
+
+}
+
+.card2-sty2 .num {
+    -webkit-text-stroke: thin #fff;
+}
+
+.card2-sty1 .title,
+.card2-sty2 .title,
+.card2-sty3 .title,
+.card2-sty4 .title {
+    color: #fff;
+}
+
+
+.card2-sty1 .desc,
+.card2-sty2 .desc,
+.card2-sty3 .desc,
+.card2-sty4 .desc {
+    color: #e0e9fa;
+    font-size: 14px;
+}

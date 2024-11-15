@@ -1,0 +1,17 @@
+.row-child {
+    width: 85%;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px 150px 0px;
+
+
+}
+
+@media(min-width:360px) and (max-width: 570px){
+    .row-child{
+        flex-direction: column;
+    }
+}

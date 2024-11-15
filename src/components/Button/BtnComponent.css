@@ -1,0 +1,45 @@
+.BtnBlue, .BtnWhite, .BtnOrange {
+    border-radius: 50px;
+    padding: 0.3rem 0.8rem;
+    border: none;
+    font-size: 10px;
+
+}
+
+.BtnWhite {
+    background-color: #fff;
+    color: black;
+}
+
+.BtnBlue {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.BtnOrange {
+    background-color: rgb(249 134 0);
+    color: #fff;
+}
+
+.BtnFooterHome {
+    position: absolute;
+    right: 10%;
+}
+
+.BtnPric, .BtnPric2 {
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.36);
+    font-size: 12px;
+}
+
+.BtnPric {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.BtnPric2{
+    background-color: var(--secondry-color);
+    color: #fff;
+}

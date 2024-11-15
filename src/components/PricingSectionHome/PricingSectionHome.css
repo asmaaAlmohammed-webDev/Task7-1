@@ -1,0 +1,85 @@
+.pricing-home {
+    padding: 50px;
+    position: relative;
+    margin-bottom: 250px;
+
+}
+
+.pricing-home .title-sec {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-home .title-sec .btn1 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.173);
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.pricing-home .title-sec .btn2 {
+    font-size: 12px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-right: 10px;
+}
+
+.pricing-home .title-sec p {
+    font-size: 12px;
+    margin-top: 35px;
+    color: var(--primary-color);
+}
+
+.pricing-home .row-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.pricing-home .title-sec .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingShape1 {
+    position: absolute;
+    bottom: 22%;
+    left: 0;
+    width: 170px;
+}
+
+.pricingShape2 {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+
+@media (max-width :1390px) {
+    .pricingShape1 {
+        width: 100px;
+    }
+}
+
+@media (max-width :490px) {
+
+    .pricingShape1,
+    .pricingShape2 {
+        display: none;
+    }
+}

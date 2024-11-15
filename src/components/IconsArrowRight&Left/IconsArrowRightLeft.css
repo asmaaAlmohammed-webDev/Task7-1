@@ -1,0 +1,17 @@
+ .icons-arrow-right-left .icon1,
+ .icons-arrow-right-left .icon2 {
+     width: 30px;
+     height: 30px;
+     padding: 10px;
+     border-radius: 50%;
+     box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.323);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 10px;
+ }
+
+ .icons-arrow-right-left .icon2 {
+     background-color: var(--primary-color);
+     color: #fff;
+ }

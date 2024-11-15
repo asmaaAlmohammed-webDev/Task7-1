@@ -1,0 +1,45 @@
+.test-monoils-sec {
+    padding: 50px;
+    background-color: #f2f6fe;
+    position: relative;
+
+}
+
+.title-client-sec {
+    text-align: center;
+    margin: 170px 0px 60px 0px;
+}
+
+.row-client-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 65px;
+
+}
+
+.test-monoils-sec .to-move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 15px;
+    margin: 20px auto;
+    background-color: rgba(128, 128, 128, 0.121);
+    border-radius: 50px;
+}
+
+.test-monoils-sec .to-move div {
+    width: 70px;
+    height: 15px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+}
+
+@media(max-width:600px) {
+    .card-client-sty1, .card-client-sty3 {
+        display: none;
+    }
+}

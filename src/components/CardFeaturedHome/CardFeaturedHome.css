@@ -1,0 +1,81 @@
+.card-feau,
+.card-feau2 {
+    position: relative;
+    height: 240px;
+}
+
+.card-feau .content,
+.card-feau2 .content {
+    background-color: #fff;
+    width: 270px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 8px rgba(128, 128, 128, 0.107);
+    position: absolute;
+    bottom: -130%;
+    left: 9%;
+}
+
+.card-feau .img1,
+.card-feau2 .img1 {
+    width: 330px;
+    margin-top: 130px;
+
+}
+
+.card-feau .information,
+.card-feau2 .information {
+    border-top: 1px solid rgba(128, 128, 128, 0.479);
+}
+
+.card-feau .title,
+.card-feau2 .title {
+    width: 210px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+    margin: 10px 15px;
+}
+
+.card-feau .desc1,
+.card-feau2 .desc1 {
+    width: 130px;
+    padding: 0px 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+.card-feau .date,
+.card-feau2 .date {
+    font-size: 13px;
+}
+
+.card-feau .img2,
+.card-feau2 .img2 {
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.card-feau .icon,
+.card-feau2 .icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.585);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.338);
+}
+
+@media (min-width: 360px) and (max-width: 440px){
+.card-feau{
+    display: none;
+}
+}

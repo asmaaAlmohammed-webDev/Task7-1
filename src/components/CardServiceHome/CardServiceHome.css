@@ -1,0 +1,20 @@
+.card-sty1, .card-sty2, .card-sty3, .card-sty4 {
+    padding: 25px;
+    width: 220px;
+    background-color: #f3f7fb;
+    border-radius: 20px;
+
+}
+
+.card-sty1 button, .card-sty2 button, .card-sty3 button, .card-sty4 button {
+    font-size: 12px;
+    background-color: inherit;
+}
+
+.card-sty1 p, .card-sty2 p, .card-sty3 p, .card-sty4 p {
+    font-size: 12px;
+}
+
+.card-sty1 h5, .card-sty2 h5, .card-sty3 h5, .card-sty4 h5 {
+    font-size: 15px;
+}

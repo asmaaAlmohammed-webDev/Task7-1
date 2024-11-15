@@ -1,0 +1,49 @@
+.service-section-home .titles-section {
+    padding: 15px 80px !important;
+}
+
+.service-section-home h2 {
+    width: 430px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.service-section-home .row-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.service-section-home .row-cards2 {
+    position: relative;
+    width: 100%;
+    padding: 70px 20px;
+    background-color: var(--secondry-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+    margin-top: 280px;
+}
+
+.videoServiceHome {
+    position: absolute;
+    top: -230px;
+    width: 76%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 15px;
+
+}
+
+
+@media(max-width:600px) {
+    .card-sty1, .card-sty2, .card-sty4 {
+        display: none;
+    }
+}
